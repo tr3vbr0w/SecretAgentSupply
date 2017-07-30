@@ -4,7 +4,8 @@ html {
 }
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 header.head {
   display: flex;
@@ -15,6 +16,7 @@ header.head {
   color: white;
   font-family: Helvetica;
   font-size: 1rem;
+  margin-top: 1rem;
   }
 header img {
   height: 1.5rem;
@@ -50,4 +52,66 @@ span.site-message {
   margin-top: 10rem;
   margin-left: 30rem;
   font-weight: bold;
+}
+.services {
+  display: inline-flex;
+  justify-content: center;
+  width: 960px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 6rem;
+  height: 8rem;
+  width: 5rem;
+  justify-content: space-between;
+}
+img.images#paper {
+  width: 3rem;
+}
+img.images {
+  width: 100%;
+  height: auto;
+}
+.images div {
+  margin-top: 1rem;
+  align-self: flex-end;
+  text-align: center;
+}
+.final-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  width: 960px;
+}
+.info span {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .5rem 1.5rem;
+  width: 10rem;
+  background-color: cadetblue;
+  margin-top: 3rem;
+}
+.info {
+  width: 35%;
+  height: auto;
+  margin: 0% 2.5%;
+}
+.info p {
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 1024px) {
+  header.head {
+    margin: 0;
+    width: 100%;
+  }
+  span.site-message {
+    padding: .75rem 4rem;
+    margin-left: 10rem;
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    align-self: flex-end;
+    margin-right: 2rem;
+  }
 }
