@@ -18,6 +18,10 @@ header.head {
   font-size: 1rem;
   margin-top: 1rem;
   }
+span.title {
+  width: 11rem;
+}
+
 header img {
   height: 1.5rem;
   margin-left: 2rem;
@@ -100,6 +104,24 @@ img.images {
 }
 .info p {
   margin-top: 1rem;
+}
+footer{
+  width: 960px;
+  height: 9.5rem;
+  background-color: azure;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+footer span {
+  margin-left: 0rem;
 }
 @media only screen and (max-width: 1024px) {
   header.head {
